@@ -4,55 +4,94 @@
   box-sizing: border-box;
   margin: 0;
   font-family: "Turret Road", cursive;
-  background-color: rgb(201, 191, 191);
+  background-color: rgb(220, 210, 210);
 }
 
-body{
+ body{
+  background-color: rgb(206, 177, 173);
+ } 
 
-
-}
 /*** Header **/
 
 
-header {
+header {}
 
- 
-
-
-}
 header div.topbar {
-
+display: flex;
+align-items: center;
+justify-content: space-between;
   height: 40px;
-  background-color: brown;
+  background-color: rgb(237, 70, 28);
 }
 
 header nav{
-  padding-inline: 80px;
+  padding-inline: 10px;
   display: flex;
   justify-content: space-between;
-  height: 20px;
+  height: 100px;
 }
 
 
 
 nav div.logo{
+display: flex;
 height: 80px;
 width: 80px;
+justify-content: left;
+/* background-color: blueviolet; */
+background-size: cover;
+background-position: center;
+
+
 
 
 }
 
 div.logo img{
   height: 120%;
+  
 }
 
-header div.topbar {
-  align-items: end;
-  justify-content: end;
-  justify-items: end;
-}
 
 main {
   display: flex;
   justify-content: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 115px;
 }
+
+main section.hero{
+  display:flex;
+    align-items: center;
+    gap: 20px;
+    min-height: calc(100vh - 120px);
+    
+}
+
+header button{
+  scale:100%;
+  margin-left: 5px;
+}
+header button:hover {
+  scale: 120%;
+  
+}
+
+.navlinks {
+  font-size: 40px;
+  outline-style: double;
+  align-items: center;
+ }
+
+ header button1{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  /* border-style:groove; */
+  /* gap:40px */
+ }
+ header button1:hover {
+  scale: 120%;
+ }
